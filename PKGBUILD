@@ -24,6 +24,7 @@ prepare() {
   cd $pkgname
   rm -f m4/glib-gettext.m4
   NOCONFIGURE=1 ./autogen.sh
+  sed -i 's/SUBDIRS = .*/SUBDIRS = /' doc/Makefile.am
 }
 
 build() {
