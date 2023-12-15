@@ -10,7 +10,7 @@ license=('GPL' 'LGPL')
 depends=(docbook-xml rarian python2-libxml2)
 makedepends=(intltool gnome-common git)
 url="https://www.gnome.org"
-source=("git+https://github.com/kj-sh604/archived_gnome-doc-utils")
+source=("git+https://github.com/kj-sh604/gnome-doc-utils.git")
 # pkgver() {
 #   cd $pkgname
 #   git describe --tags | sed 's/-/+/g'
