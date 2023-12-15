@@ -2,8 +2,8 @@
 # Contributor: Jan de Groot <jgc@archlinux.org>
 
 pkgname=gnome-doc-utils
-pkgver=0.20.10+16+gc03cc09
-pkgrel=3
+pkgver=0.21
+pkgrel=604
 pkgdesc="Documentation utilities for Gnome"
 arch=('any')
 license=('GPL' 'LGPL')
